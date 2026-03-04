@@ -11,6 +11,11 @@ Include:
 - Project: OpenCensorAPI - Hebrew Bad Words Checker
 - Repository: https://github.com/LikoKiko/OpenCensor-Model-Training
 
+## Hugging Face Links
+- Space: https://huggingface.co/spaces/LikoKIko/OpenCensor-H1-Mini
+- Model (OpenCensor-H1-Mini): https://huggingface.co/LikoKIko/OpenCensor-H1-Mini
+- Model (OpenCensor-H1): https://huggingface.co/LikoKIko/OpenCensor-H1
+
 ## How to Use
 - Free for school and research.
 - Free to change and share if you give credit.
@@ -21,28 +26,20 @@ Include:
 Based on OpenCensorAPI by LikoKiko  
 Original repository: https://github.com/LikoKiko/OpenCensor-Model-Training
 
-```
+## Project Structure
+```text
 OpenCensor-Model-Training
-├─ data
-│  └─ data.csv
-├─ Model
-│  ├─ censormodel.pt
-│  ├─ LICENSE
-│  ├─ main.py
-│  ├─ OpenCensor
-│  │  ├─ config.json
-│  │  ├─ model.safetensors
-│  │  ├─ special_tokens_map.json
-│  │  ├─ tokenizer.json
-│  │  ├─ tokenizer_config.json
-│  │  └─ vocab.txt
-│  ├─ requirements.txt
-│  └─ testaimodel.py
-├─ README.md
-└─ Space
-   ├─ app.py
-   ├─ Dockerfile
-   ├─ README.md
-   └─ requirements.txt
-
+|-- data
+|   `-- data.csv
+|-- Model
+|   |-- LICENSE
+|   |-- main.py
+|   |-- requirements.txt
+|   `-- testaimodel.py
+|-- README.md
+`-- Space
+    |-- app.py
+    |-- Dockerfile
+    |-- README.md
+    `-- requirements.txt
 ```
